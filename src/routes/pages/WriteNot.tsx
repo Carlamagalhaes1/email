@@ -1,4 +1,4 @@
-import { Nav } from "components";
+import { Button, Nav } from "components";
 
 export function WriteNOtPage () {
     return(
@@ -6,6 +6,19 @@ export function WriteNOtPage () {
           <Nav/>
            <div className="container">
             <h1>Escrever agora</h1>
+            <form className="form">
+              <label htmlFor="destinationName">Nome completo:</label>
+              <input type="text" />
+              <label htmlFor="destinationAddress">Email:</label>
+              <input type="text" />
+              <label htmlFor="dueDate">Data</label>
+              <input type="text" />
+              <label htmlFor="subject">Assunto</label>
+              <input type="text" />
+              <label htmlFor="body">Mensagem</label>
+              <input type="text" />
+              <Button type='submit' variant="primary">Enviar</Button>
+            </form>
            </div>
         </>
 
