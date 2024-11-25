@@ -1,13 +1,22 @@
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { Controller, useFormContext } from "react-hook-form";
 
-export function DateTimePicker() {
+type Props = {
+    name: string
+}
+
+export function DateTimePicker({ name }: Props) {
+    const { control } = useFormContext()
+
     return (
-        <DatePicker
-            selected={new Date()}
-            onChange={(date: Date | null) => {
-               
-            }}
+        <Controller
+            name={name}
+            control={control} render={({ field: { onChange, value}}) => (<DatePicker
+                selected={new Date()}
+                onChange={(date: Date | null) => onChange(date)}
+            />)} 
         />
+
     );
 }
