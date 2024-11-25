@@ -1,4 +1,4 @@
-import { Button, Nav, RichInput } from "components";
+import { Button, DateTimePicker, Nav, RichInput } from "components";
 
 export function WriteNOtPage () {
     return(
@@ -12,7 +12,7 @@ export function WriteNOtPage () {
               <label htmlFor="destinationAddress">Email:</label>
               <input type="email" />
               <label htmlFor="dueDate">Data</label>
-              <input type="text" />
+              <DateTimePicker/>
               <label htmlFor="subject">Assunto</label>
               <input type="text" />
               <label htmlFor="body">Mensagem</label>
