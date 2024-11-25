@@ -4,7 +4,9 @@ export function WriteNOtPage () {
     return(
         <>
           <Nav/>
-          <h1>Escrever agora</h1>
+           <div className="container">
+            <h1>Escrever agora</h1>
+           </div>
         </>
 
     )
