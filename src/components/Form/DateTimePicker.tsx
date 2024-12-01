@@ -15,15 +15,20 @@ export function DateTimePicker({ name }: Props) {
     return (
         <Controller
             name={name}
-            control={control} 
+            control={control}
+            defaultValue={new Date().setHours(9, 30)} 
             render={({ field: { onChange, value } }) =>
                  (<DatePicker
                  showTimeSelect
                  locale="pt-BR"
                  dateFormat="Pp"
                 
-                selected={new Date()}
-                onChange={(date: Date | null) => onChange(date)}
+                selected={new Date(value)}
+                onChange={(date: Date | null) => onChange(date?.toISOString)}
+                onKeyDown={e => {
+                    e.preventDefault()
+                }}
+
             />)}
         />
 

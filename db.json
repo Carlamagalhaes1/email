@@ -1,0 +1,156 @@
+{
+  "data": [
+    {
+      "destinationName": "João da Silva",
+      "destinationAddress": "joao.silva@example.com",
+      "dueDate": "2024-11-30",
+      "subject": "Lembrete de Reunião",
+      "body": "Esta é uma mensagem de lembrete para a reunião agendada.",
+      "id": "763e"
+    },
+    {
+      "id": "f92a",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "878a",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "55f2",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "386a",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "14ff",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "f53f",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "01b2",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "1b5a",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "6dd1",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "3f2d",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "7f62",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "4306",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla Magalhães"
+    },
+    {
+      "id": "3e00",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla "
+    },
+    {
+      "id": "f647",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla "
+    },
+    {
+      "id": "d20f",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla "
+    },
+    {
+      "id": "6320",
+      "body": "<p>dfgh</p>",
+      "subject": "dfgh",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla "
+    },
+    {
+      "id": "2b45",
+      "body": "<p>dfgh</p>",
+      "subject": "lalalal",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla "
+    },
+    {
+      "id": "d310",
+      "body": "<p>dfgh</p>",
+      "subject": "lalalal",
+      "dueDate": "1733056224246",
+      "destinationAddress": "carlamagalhaes60@gmail.com",
+      "destinationName": "Carla "
+    }
+  ]
+}
