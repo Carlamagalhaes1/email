@@ -14,18 +14,18 @@ export function WriteNowPage() {
   async function onSubmit(values: IWriteNowForm) {
     try {
       const { status, data } = await MailServices.sendEmail(values);
-      console.log("status", status); // Verifique o status retornado
+      console.log("status", status); 
       if (status === 201) {
         setSuccessMessage("Os dados foram enviados com sucesso!");
-        setTimeout(() => setSuccessMessage(""), 5000); // Limpa a mensagem após 5 segundos
+        setTimeout(() => setSuccessMessage(""), 5000); 
       } else {
         setSuccessMessage("Falha no envio. Tente novamente.");
-        setTimeout(() => setSuccessMessage(""), 5000); // Limpa a mensagem após 5 segundos
+        setTimeout(() => setSuccessMessage(""), 5000); 
       }
     } catch (error) {
       console.error("Erro ao enviar:", error);
       setSuccessMessage("Erro ao enviar, tente novamente.");
-      setTimeout(() => setSuccessMessage(""), 5000); // Limpa a mensagem após 5 segundos
+      setTimeout(() => setSuccessMessage(""), 5000); 
     }
   }
 
