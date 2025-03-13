@@ -37,7 +37,7 @@ export function Nav() {
                 
                         <Link to='/contatos'><NavMobileItem>Contatos</NavMobileItem>
                         </Link>       
-                        <Link to='/emails'><NavMobileItem>E-mails</NavMobileItem></Link>
+                        <Link to='/emails'><NavMobileItem>E-mailks</NavMobileItem></Link>
                    
                 </div>
             </div>
